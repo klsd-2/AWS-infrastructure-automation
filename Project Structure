@@ -1,0 +1,19 @@
+aws-infrastructure-automation/
+│
+├── terraform/
+│   ├── provider.tf
+│   ├── variables.tf
+│   ├── vpc.tf
+│   ├── security-groups.tf
+│   ├── iam.tf
+│   ├── eks.tf
+│   ├── rds.tf
+│   ├── alb.tf
+│   ├── outputs.tf
+│   └── terraform.tfvars
+│
+├── monitoring/
+│   ├── prometheus-values.yaml
+│   └── grafana-values.yaml
+│
+└── README.md
